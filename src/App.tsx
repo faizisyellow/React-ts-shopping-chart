@@ -22,7 +22,7 @@ const App = () => {
       <Header onCartOpen={handleCartOpen} />
       <main className="flex flex-row ">
         <Products onAddItem={setCartOpen} />
-        {cartOpen && <Cart onCloseCart={setCartOpen} />}
+        {cartOpen ? <Cart onCloseCart={setCartOpen} /> : null}
       </main>
     </div>
   );
