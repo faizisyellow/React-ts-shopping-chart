@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="App relative">
       <Header onCartOpen={handleCartOpen} />
-      <main className="flex flex-row ">
+      <main className="flex flex-row gap-2">
         <Products onAddItem={setCartOpen} />
         {cartOpen ? <Cart onCloseCart={setCartOpen} /> : null}
       </main>
