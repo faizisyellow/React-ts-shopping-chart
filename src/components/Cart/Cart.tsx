@@ -61,7 +61,7 @@ export const Cart: React.FC<CartProps> = (props) => {
       <footer className="flex flex-col items-end gap-4 border-t mt-6 py-2">
         <div className="">
           <span className="mx-4 font-semibold">Total</span>
-          <span className="font-medium text-lg">$234</span>
+          <span className="font-medium text-lg">$455</span>
         </div>
         <button className="bg-blue-500 p-2 w-max rounded-md text-white">Check Out</button>
       </footer>
