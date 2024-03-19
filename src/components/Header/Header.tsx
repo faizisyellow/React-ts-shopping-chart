@@ -15,7 +15,7 @@ export const Header: FC<HeaderProps> = (props) => {
         </div>
         <div
           className="border border-gray-500 w-min p-1.5 px-2
-       rounded-full"
+       rounded-full shadow-sm"
         >
           FM
         </div>
